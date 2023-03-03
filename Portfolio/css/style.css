@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tilt+Warp&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.icon {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    color: aliceblue;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header ul li {
+    display: inline-block;
+    color: white;
+    margin: 0 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+}
+
+header ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+
+.btn button {
+    width: 118px;
+    background-color: rgb(213, 0, 0);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    border-radius: 27px;
+    height: 37px;
+}
+.btn button:hover {
+    background-color: black;
+    border:2px solid red;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    min-height: calc(100vh - 90px);
+}
+
+.intro {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+
+}
+
+.name {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 62px;
+}
+
+.profile img {
+    height: calc(100vh - 90px);
+}
+
+
+
+.email input {
+    height: 31px;
+    width: 350px;
+    margin: 25px 0;
+    padding: 0 31px;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+.email button {
+    width: 118px;
+    background-color: rgb(213, 0, 0);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    border-radius: 27px;
+    height: 37px;
+}
+.email button:hover {
+    background-color: black;
+    border:2px solid red;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.main2 {
+    display:flex;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+   
+}
+.image img {
+    height:100vh;
+    border:1px solid  rgb(62, 64, 67);
+}
+
+.about-me {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+   
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: 100;
+ background-color: rgb(62, 64, 67);
+ color:white;
+ padding: 109px 96px;
+ border-radius:15px;
+}
+
+.about-me h2 {
+    font-size:63px;
+}
+
+.desiner {
+    display:flex;
+
+}
+
+.desiner h3 {
+    margin:5px;
+}
+
+.desiner p {
+    font-weight: 100;
+
+}
+
+.about-me p {
+    line-height:27px ;
+}
+.main3 {
+    background-color: black;
+    min-height: 100vh;
+}
+
+
+
+.main3 h3 {
+    color:aliceblue;
+    text-align:center;
+    font-size:63px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.items {
+    display: flex;
+    justify-content:center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    color:white;
+    margin-top: 127px;
+}
+
+
+.item {
+    width: 170px;
+    padding: 48px;
+    background-color: rgb(62, 64, 67);
+    border-radius: 20px;
+    margin:0 30px;
+}
+
+.greet { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 71px;
+    background-color:rgb(62, 64, 67);
+    padding: 25px;
+}
+
+
+
+.greet button {
+    width:108px;
+    height: 35px;
+    color:white;
+    background-color: red;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+   
+    border-radius: 20px;
+    margin:25px;
+}
+    
+
+.greet button:hover {
+    border:2px solid red;
+    background-color: black;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main4 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    background-color: black;
+    color:aliceblue;
+    min-height: 60vh;
+}
+
+.main4 h4 {
+    text-align: center;
+    font-size: 63px;
+    padding:30px;
+
+}
+.frm {
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+.frm input {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    height: 35px;
+    width:250px;
+    margin:0 25px;
+    padding: 0 12px;
+}
+.text-message {
+   
+    display: flex;
+    justify-content: center;
+}
+
+.text-message input {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    height: 116px;
+    width: 500px;
+    margin: 22px;
+    padding: 0px 20px 4px 20px;
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+  .submit input {
+    height:50px;
+    width:100px;
+    background-color: red;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+   
+    border-radius:10px;
+  }
+
+  .submit input:hover {
+    background-color: black;
+    transform: scale(1.1);
+    transition: 1s;
+    border:2px solid red;
+    cursor: pointer;
+  }
+
+
+
+
+.footer{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    display: flex;
+    color: aliceblue;
+    flex-direction:column;
+    align-items: center;
+    background-color: black;
+    padding: 47px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px;
+
+}
+
+.footer img {
+    height:50px;
+}
+
+.footer a img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.footer h5 {
+    color:aliceblue;
+    margin: 10px;
+}
